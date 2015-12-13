@@ -1,0 +1,55 @@
+html, body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h4 {
+  color: white;
+  padding: 30px 0px 0px 30px;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+h3 {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  padding-top: 200px;
+}
+
+.myButton {
+  width: 90px;
+  height: 16px;
+	background-color:#f9e52e;
+	border-radius:5px;
+	color:#000000;
+	font: 14px;
+	font-weight:800;
+	padding:16px 30px;
+	text-decoration:none;
+  text-align: center;
+  display: block;
+  margin: 50px auto 200px auto;
+}
+.myButton:hover {
+	background-color:#f2d709;
+}
+.myButton:active {
+	position:absolute;
+}
+
+.relaxr-bg {
+  height: 700px;
+  background: url(images/relaxr_header.jpg) no-repeat top center / cover #606161;
+  position: relative;
+}
+
+.overlay-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.simple-centered-text {
+  text-align: center;
+
+}

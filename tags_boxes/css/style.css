@@ -1,0 +1,27 @@
+body{
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  background-color: red;
+  padding: 15px;
+  border: solid 2px;
+  border-color: black;
+}
+
+p{
+  color: white;
+  background-color: blue;
+  padding: 15px;
+  border: solid 2px;
+  border-color: black;
+}
+
+code{
+  color: black;
+  background: white;
+  padding: 2px 5px;
+}
