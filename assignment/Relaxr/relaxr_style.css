@@ -3,20 +3,51 @@ html, body {
   font-family: 'Open Sans', sans-serif;
 }
 
-h4 {
+h1 {
   color: white;
-  padding: 30px 0px 0px 30px;
+  padding: 50px 0px 0px 50px;
   font-size: 24px;
   font-weight: 800;
 }
 
-h3 {
-  color: white;
-  font-size: 24px;
+h2 {
+  color: #033048;
+  padding: 50px 0 20px 50px;
+  font-size: 20px;
   font-weight: 600;
-  padding-top: 200px;
 }
 
+h3 {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  padding-top: 10px;
+  text-align: center;
+}
+
+ul {
+  color: #606161;
+  font-size: 13px;
+  font-weight: 300;
+  text-indent: 80px;
+  line-height: 20px;
+  padding-bottom: 50px;
+}
+
+li {
+  list-style-image: url(images/Gray_circle-01.png);
+}
+
+blockquote {
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 30px;
+  padding-top: 100px;
+  text-align: center;
+
+}
 .myButton {
   width: 90px;
   height: 16px;
@@ -40,7 +71,7 @@ h3 {
 
 .relaxr-bg {
   height: 700px;
-  background: url(images/relaxr_header.jpg) no-repeat top center / cover #606161;
+  background: url(images/relaxr_header.jpg) no-repeat top center / cover #033048;
   position: relative;
 }
 
@@ -51,5 +82,52 @@ h3 {
 
 .simple-centered-text {
   text-align: center;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  padding-top: 200px;
+}
 
+.benefits {
+  color: #606161;
+  padding: 0 0 20px 50px;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 16px;
+}
+
+.testimonial-bg {
+  height: 394px;
+  background: url(images/testimonial_bg.jpg) no-repeat top center / cover #033048;
+  position: relative;
+}
+
+.yellow_bg {
+  width: 100%;
+  height:48px;
+  background-color: #f9e42e;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.signUp_btn {
+  width: 150px;
+  height: 16px;
+	background-color:#033048;
+	border-radius:5px;
+	color: white;
+	font: 12px;
+	font-weight:800;
+	padding:16px 30px;
+	text-decoration:none;
+  text-align: center;
+  letter-spacing: 1px;
+  display: block;
+  margin: 0px auto 0px auto;
+}
+.signUp_btn:hover {
+	background-color:#0e5277;
+}
+.signUp_btn:active {
+	position:absolute;
 }
