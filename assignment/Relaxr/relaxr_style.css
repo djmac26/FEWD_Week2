@@ -12,7 +12,7 @@ h1 {
 
 h2 {
   color: #033048;
-  padding: 50px 0 20px 50px;
+  padding: 50px 0 20px 30px;
   font-size: 20px;
   font-weight: 600;
 }
@@ -29,13 +29,10 @@ ul {
   color: #606161;
   font-size: 13px;
   font-weight: 300;
-  text-indent: 80px;
   line-height: 20px;
   padding-bottom: 50px;
-}
+  padding-left: 50px;
 
-li {
-  list-style-image: url(images/Gray_circle-01.png);
 }
 
 blockquote {
@@ -46,8 +43,8 @@ blockquote {
   line-height: 30px;
   padding-top: 100px;
   text-align: center;
-
 }
+
 .myButton {
   width: 90px;
   height: 16px;
@@ -86,11 +83,16 @@ blockquote {
   font-size: 24px;
   font-weight: 600;
   padding-top: 200px;
+  margin: 0 50px 0 50px;
+}
+
+.box_benefits {
+  margin: 0 30px 0 35px;
 }
 
 .benefits {
   color: #606161;
-  padding: 0 0 20px 50px;
+  padding: 0 0 20px 30px;
   font-size: 13px;
   font-weight: 300;
   line-height: 16px;
@@ -130,4 +132,50 @@ blockquote {
 }
 .signUp_btn:active {
 	position:absolute;
+}
+
+.black-bg {
+  width: 100%;
+  height:120px;
+  background-color: #121212;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer_relaxr {
+  color: #f9e42e;
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
+  padding: 0px;
+}
+
+.icons{
+  list-style-type: none;
+  overflow: hidden;
+  margin: auto;
+  padding: 30px 0px 30px 0px;
+  text-align: center;
+}
+
+.icons li{
+  display: inline;
+}
+
+.icons li a{
+  display: inline-block;
+  color: white;
+  padding: 0px 15px;
+  text-decoration: none;
+}
+
+.icons li a:hover:not(.active) {
+  color: #606161;
+}
+
+.copyright {
+  color: white;
+  font-size: 9px;
+  font-weight: 600;
+  text-align: center;
 }
