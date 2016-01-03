@@ -1,0 +1,55 @@
+body {
+  font-family: sans-serif;
+  color: #2a2922;
+  background: #f3ebdd;
+}
+
+header, footer {
+ display: block;
+ margin: 10px;
+ padding: 5px;
+ min-height: 100px;
+ border-radius: 7pt;
+ background: #7d5642;
+ }
+
+ #Two_main {
+  min-height: 400px;
+  margin: 0px;
+  padding: 0px;
+  display: -webkit-flex;
+  -webkit-flex-flow: row;
+  }
+
+ #Two_main > article {
+ margin: 10px;
+ padding: 5px;
+ border-radius: 7pt;
+ background: #506d2f;
+ -webkit-flex: 70%;
+ -webkit-order: 1;
+ }
+
+ #Two_main > aside {
+ margin: 10px;
+ padding: 5px;
+ border-radius: 7pt;
+ background: #506d2f;
+ -webkit-flex: 30%;
+ -webkit-order: 2;
+ }
+
+ @media all and (max-width: 640px) {
+
+ #Two_main {
+  -webkit-flex-flow: column;
+ }
+
+ #Two_main > article, #Two_main > aside {
+  -webkit-order: 0;
+ }
+
+ #Two_main > aside, header, footer {
+  min-height: 50px;
+  max-height: 50px;
+ }
