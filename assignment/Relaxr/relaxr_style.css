@@ -1,35 +1,36 @@
 html, body {
   margin: 0;
+  font-size: 0.625em;
   font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
   color: white;
   padding: 50px 0px 0px 50px;
-  font-size: 24px;
+  font-size: 5em;
   font-weight: 800;
 }
 
 h2 {
   color: #033048;
   padding: 50px 0 20px 30px;
-  font-size: 20px;
+  font-size: 5em;
   font-weight: 600;
 }
 
 h3 {
   color: white;
-  font-size: 18px;
+  font-size: 3.5em;
   font-weight: 600;
-  padding-top: 10px;
+  padding-top: 15px;
   text-align: center;
 }
 
 ul {
   color: #606161;
-  font-size: 13px;
+  font-size: 3em;
   font-weight: 300;
-  line-height: 20px;
+  line-height: 30px;
   padding-bottom: 50px;
   padding-left: 50px;
   list-style-type: disc;
@@ -38,10 +39,10 @@ ul {
 
 blockquote {
   color: white;
-  font-size: 18px;
+  font-size: 3.5em;
   font-weight: 300;
   font-style: italic;
-  line-height: 30px;
+  line-height: 35px;
   padding-top: 100px;
   text-align: center;
 }
@@ -52,7 +53,7 @@ blockquote {
 	background-color:#f9e52e;
 	border-radius:5px;
 	color:#000000;
-	font: 14px;
+	font-size: 2.5em;
 	font-weight:800;
 	padding:16px 30px;
 	text-decoration:none;
@@ -81,7 +82,7 @@ blockquote {
 .simple-centered-text {
   text-align: center;
   color: white;
-  font-size: 24px;
+  font-size: 6em;
   font-weight: 600;
   padding-top: 200px;
   margin: 0 50px 0 50px;
@@ -94,9 +95,9 @@ blockquote {
 .benefits {
   color: #606161;
   padding: 0 0 20px 30px;
-  font-size: 13px;
+  font-size: 3em;
   font-weight: 300;
-  line-height: 16px;
+  line-height: 25px;
 }
 
 .testimonial-bg {
@@ -119,7 +120,7 @@ blockquote {
 	background-color:#033048;
 	border-radius:5px;
 	color: white;
-	font: 12px;
+	font-size: 3em;
 	font-weight:800;
 	padding:16px 30px;
 	text-decoration:none;
@@ -145,7 +146,7 @@ blockquote {
 
 .footer_relaxr {
   color: #f9e42e;
-  font-size: 24px;
+  font-size: 5em;
   font-weight: 800;
   text-align: center;
   padding: 0px;
@@ -176,7 +177,7 @@ blockquote {
 
 .copyright {
   color: white;
-  font-size: 9px;
+  font-size: 1.5em;
   font-weight: 600;
   text-align: center;
 }
